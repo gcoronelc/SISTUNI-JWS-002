@@ -1,10 +1,10 @@
 ![Java Web Services](https://raw.githubusercontent.com/gcoronelc/SISTUNI-JWS-002/master/JavaWebService.jpg)
 
-# SISTUNI JAVA WEB SERVICES
+# JAVA WEB SERVICES
 
 - Lugar: SistemasUNI
 - Horario: Domingos de 3 a 9 pm
-- Inicio: 28-FEB-2016
+- Inicio: 13-MAR-2016
 - Dirección: https://goo.gl/maps/98vwAt9NZMU2
 - Contenido: http://www.sistemasuni.edu.pe/dpdf/Workshops/WorkshopWebServices.pdf
 - Pagina: http://gcoronelc.github.io/SISTUNI-JWS-002/
@@ -19,7 +19,7 @@
 
 # CLASE 01
 
-- Fecha: 28-FEB-2016
+- Fecha: 13-MAR-2016
 
 
 
