@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  
+  <dc:title>JAVA WEB SERVICE</dc:title>
+  <dc:creator>GUSTAVO CORONEL</dc:creator>
+  <dc:subject>INFORMATICA</dc:subject>
+  <dc:description>Creación de servicios web con Java.</dc:description>
+  <dc:publisher>SISTEMAS UNI</dc:publisher>
+  <dc:date>ENE-2016</dc:date>
+  <dc:language>ESPAÑOL</dc:language>
+
+</metadata>

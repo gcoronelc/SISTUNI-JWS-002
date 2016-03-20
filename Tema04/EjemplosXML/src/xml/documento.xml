@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- documento.xml -->
+<!DOCTYPE documento SYSTEM "documento.dtd">
+<documento>
+  <titulo>Fundamentos de XML</titulo>
+  <autor>Gustavo Coronel</autor>
+  <seccion>
+    <tema>Introducción</tema>
+    <parrafo>Parrafo 1</parrafo>
+    <parrafo>Parrafo 2</parrafo>
+  </seccion>
+  <seccion>
+    <tema>XML Validos</tema>
+    <parrafo>Parrafo 1</parrafo>
+    <parrafo>Parrafo 2</parrafo>
+  </seccion>
+</documento>
+
+

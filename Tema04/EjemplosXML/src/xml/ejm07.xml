@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- documento.xml -->
+<!DOCTYPE documento SYSTEM "documento.dtd">
+<documento>
+	<titulo>Fundamentos de XML</titulo>
+
+	<calle>1401 Main Street</calle>
+	<ciudad>Anytown</ciudad>
+	<estado>NC</estado>
+	<codigo-postal>34829</codigo-postal>
+</documento>

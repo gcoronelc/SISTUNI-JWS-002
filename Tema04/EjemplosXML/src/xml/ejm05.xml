@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejm05.xml -->
+<!DOCTYPE Mensaje 
+	[
+		<!ELEMENT Mensaje (Frase,Arenga)> 
+		<!ELEMENT Frase (#PCDATA)> 
+		<!ELEMENT Arenga (#PCDATA)> 
+	]
+>
+<!-- este es un comentario -->
+<Mensaje>
+  <Arenga>PERU es el campeón</Arenga>
+  <Frase>Somos PERÚ</Frase>
+</Mensaje>
+

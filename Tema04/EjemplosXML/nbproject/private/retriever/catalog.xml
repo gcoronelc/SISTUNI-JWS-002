@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://purl.org/dc/elements/1.1/" uri="dublincore.org/documents/2012/06/14/dcmi-terms/.v_elements"/>
+    <system systemId="http://www.abrirllave.com/ejemplo1" uri="www.abrirllave.com/index"/>
+    <system systemId="http://www.abrirllave.com/ejemplo2" uri="www.abrirllave.com/index"/>
+    <system systemId="http://www.egcc.com/ejemplo1" uri="www.egcc.com/ejemplo1"/>
+    <system systemId="http://www.egcc.com/carta1" uri="www.egcc.com/carta1"/>
+    <system systemId="http://www.egcc.com/carta2" uri="www.egcc.com/carta2"/>
+</catalog>

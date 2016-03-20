@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- personal.xml -->
+<!DOCTYPE lista_de_personas SYSTEM "personal.dtd">
+<lista_de_personas>
+  <persona>
+    <nombre>Gustavo Coronel</nombre>
+    <sexo>Varón</sexo>
+    <numeroseguridadsocial>34768923</numeroseguridadsocial>
+  </persona>
+  <persona>
+    <nombre>Ricardo Marcelo</nombre>
+  </persona>
+</lista_de_personas>

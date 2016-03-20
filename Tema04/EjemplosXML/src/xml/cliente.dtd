@@ -1,0 +1,4 @@
+<!ELEMENT cliente (nombre, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+

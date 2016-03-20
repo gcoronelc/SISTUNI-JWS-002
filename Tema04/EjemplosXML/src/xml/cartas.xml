@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e1:cartas xmlns:e1="http://www.egcc.com/carta1"
+   xmlns:e2="http://www.egcc.com/carta2">
+  
+   <e1:carta>
+      <e1:palo>Corazones</e1:palo>
+      <e1:numero>7</e1:numero>
+   </e1:carta>
+  
+   <e2:carta>
+      <e2:carnes>
+         <e2:filete_de_ternera precio="50.00"/>
+         <e2:solomillo_a_la_pimienta precio="65.00"/>
+      </e2:carnes>
+      <e2:pescados>
+         <e2:lenguado_al_horno precio="80.00"/>
+         <e2:merluza_en_salsa_verde precio="50.00"/>
+      </e2:pescados>
+   </e2:carta>
+  
+</e1:cartas>
+
+
+

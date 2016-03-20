@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "libro.dtd">
+<!DOCTYPE persona SYSTEM "persona.dtd">
+<prestamos>
+  <prestamo>
+    <persona>
+      <nombre>Gustavo</nombre>
+      <apellidos>Coronel</apellidos>
+    </persona>
+    <libro>
+      <portada>
+        <titulo>Spring Framework</titulo>
+        <edicion>1</edicion>
+        <autor>
+          <nombre>Ricardo</nombre>
+          <apellidos>Marcelo</apellidos>
+        </autor>
+      </portada>
+      <cuerpo>Este es el cuerpo del libro</cuerpo>
+      <contraportada>Esta es la contraportada del libro</contraportada>
+    </libro>
+  </prestamo>
+</prestamos>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="curso.css" ?>
+<curso>
+  <titulo>Spring Framework</titulo>
+  <unidad titulo="Spring Core">
+    <lecciones>
+      <leccion titulo="Introducción">En esta lección ...</leccion>
+      <leccion titulo="Uso de XML">En esta lección ...</leccion>
+      <leccion titulo="Uso de Anotaciones">En esta lección ...</leccion>
+    </lecciones>
+  </unidad>
+  <unidad titulo="Spring MVC">
+    <lecciones>
+      <leccion titulo="Configuración">En esta lección ...</leccion>
+      <leccion titulo="El Controlador">En esta lección ...</leccion>
+      <leccion titulo="AJAX y JSON">En esta lección ...</leccion>
+    </lecciones>
+  </unidad>
+</curso>
+
+

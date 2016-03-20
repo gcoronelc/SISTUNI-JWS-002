@@ -1,0 +1,8 @@
+<!-- documento.dtd -->
+<!ELEMENT documento (titulo, autor, seccion+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT seccion (tema,parrafo+)>
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+

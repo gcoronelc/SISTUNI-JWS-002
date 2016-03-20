@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- venta.xml -->
+<venta xmlns="http://pe.egcc.xml/venta/venta"
+       xmlns:c="http://pe.egcc.xml/venta/cliente"
+       xmlns:a="http://pe.egcc.xml/venta/articulo">
+	<c:cliente>
+		<c:nombre>Gustavo Coronel</c:nombre>
+		<c:direccion>Av. Arenales 2670</c:direccion>
+	</c:cliente>
+	<articulos>
+		<a:articulo>
+			<a:nombre>Laptop 3i</a:nombre>
+			<a:precio>2890:00</a:precio>
+			<a:cantidad>3</a:cantidad>
+		</a:articulo>
+		<a:articulo>
+			<a:nombre>Impresora</a:nombre>
+			<a:precio>578:00</a:precio>
+			<a:cantidad>2</a:cantidad>
+		</a:articulo>
+	</articulos>
+</venta>
+

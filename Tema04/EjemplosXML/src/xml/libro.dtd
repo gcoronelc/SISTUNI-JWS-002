@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT libro (portada,cuerpo,contraportada)>
+<!ELEMENT portada (titulo,edicion, autor, editor)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT autor (nombre,apellidos, email?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
+<!ELEMENT contraportada (#PCDATA)>

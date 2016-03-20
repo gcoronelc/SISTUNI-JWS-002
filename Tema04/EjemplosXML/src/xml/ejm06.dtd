@@ -1,0 +1,11 @@
+<!-- ejm06.dtd -->
+<!ELEMENT direccion (nombre, calle, ciudad, estado, codigo-postal)>
+<!ELEMENT nombre (titulo, nombres, apellidos)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT codigo-postal (#PCDATA)>
+
