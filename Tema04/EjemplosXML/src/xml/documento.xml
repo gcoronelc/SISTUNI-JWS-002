@@ -14,6 +14,10 @@
     <parrafo>Parrafo 1</parrafo>
     <parrafo>Parrafo 2</parrafo>
   </seccion>
+  <seccion>
+    <tema>XML Namespaces</tema>
+    <parrafo>Introducción</parrafo>
+  </seccion>
 </documento>
 
 

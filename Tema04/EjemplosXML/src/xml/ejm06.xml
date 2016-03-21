@@ -11,5 +11,6 @@
   <ciudad>Anytown</ciudad>
   <estado>NC</estado>
   <codigo-postal>34829</codigo-postal>
+  <pais tipo="local">PERU</pais>
 </direccion>
 
