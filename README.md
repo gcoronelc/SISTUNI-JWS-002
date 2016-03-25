@@ -1,4 +1,5 @@
 ![Java Web Services](https://raw.githubusercontent.com/gcoronelc/SISTUNI-JWS-002/master/JavaWebService.jpg)
+![Java Web Services](https://raw.githubusercontent.com/gcoronelc/SISTUNI-JWS-002/master/promocion.jpg)
 
 # JAVA WEB SERVICES
 
