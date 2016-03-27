@@ -1,0 +1,26 @@
+===================================================
+                  En la consola
+===================================================
+
+
+Para detener el servicio:
+-------------------------
+
+C:> net stop WAS [Enter]
+
+¿Desea continuar esta operación? (S/N) [N]: S
+
+
+Para reiniciar el servicio:
+----------------------------
+
+C:> net start W3SVC  [Enter]
+
+
+
+
+
+
+
+
+
