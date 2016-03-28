@@ -1,0 +1,9 @@
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\bin\Debug\DemoNETWSClient.exe.config
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\bin\Debug\DemoNETWSClient.exe
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\bin\Debug\DemoNETWSClient.pdb
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.csprojResolveAssemblyReference.cache
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.Form1.resources
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.Properties.Resources.resources
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.csproj.GenerateResource.Cache
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.exe
+D:\EGCC\SISTUNI-JWS-002\Tema06\DemoNETWSClient\DemoNETWSClient\obj\Debug\DemoNETWSClient.pdb

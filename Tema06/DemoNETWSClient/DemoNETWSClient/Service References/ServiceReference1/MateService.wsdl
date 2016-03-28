@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.egcc.pe/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="MateService" targetNamespace="http://ws.egcc.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/WSMate/MateService?xsd=1" namespace="http://ws.egcc.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="restar">
+    <part name="parameters" element="tns:restar" />
+  </message>
+  <message name="restarResponse">
+    <part name="parameters" element="tns:restarResponse" />
+  </message>
+  <message name="sumar">
+    <part name="parameters" element="tns:sumar" />
+  </message>
+  <message name="sumarResponse">
+    <part name="parameters" element="tns:sumarResponse" />
+  </message>
+  <portType name="MateService">
+    <operation name="restar">
+      <input wsam:Action="http://ws.egcc.pe/MateService/restarRequest" message="tns:restar" />
+      <output wsam:Action="http://ws.egcc.pe/MateService/restarResponse" message="tns:restarResponse" />
+    </operation>
+    <operation name="sumar">
+      <input wsam:Action="http://ws.egcc.pe/MateService/sumarRequest" message="tns:sumar" />
+      <output wsam:Action="http://ws.egcc.pe/MateService/sumarResponse" message="tns:sumarResponse" />
+    </operation>
+  </portType>
+  <binding name="MateServicePortBinding" type="tns:MateService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="restar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sumar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MateService">
+    <port name="MateServicePort" binding="tns:MateServicePortBinding">
+      <soap:address location="http://localhost:8080/WSMate/MateService" />
+    </port>
+  </service>
+</definitions>
