@@ -23,4 +23,18 @@
 - Fecha: 13-MAR-2016
 
 
+# CLASE 02
+
+- Fecha: 20-MAR-2016
+
+
+# CLASE 03
+
+- Fecha: 27-MAR-2016
+
+# CLASE 04
+
+- Fecha: 03-ABR-2016
+- Entrega de tarea de Tema 06
+
 
