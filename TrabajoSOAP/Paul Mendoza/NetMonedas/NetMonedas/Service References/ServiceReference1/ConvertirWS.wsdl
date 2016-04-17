@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.epmg.pe/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ConvertirWS" targetNamespace="http://ws.epmg.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8083/WSMonedas/ConvertirWS?xsd=1" namespace="http://ws.epmg.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="euro_dolar">
+    <part name="parameters" element="tns:euro_dolar" />
+  </message>
+  <message name="euro_dolarResponse">
+    <part name="parameters" element="tns:euro_dolarResponse" />
+  </message>
+  <message name="dolar_euro">
+    <part name="parameters" element="tns:dolar_euro" />
+  </message>
+  <message name="dolar_euroResponse">
+    <part name="parameters" element="tns:dolar_euroResponse" />
+  </message>
+  <message name="euro_sol">
+    <part name="parameters" element="tns:euro_sol" />
+  </message>
+  <message name="euro_solResponse">
+    <part name="parameters" element="tns:euro_solResponse" />
+  </message>
+  <message name="sol_euro">
+    <part name="parameters" element="tns:sol_euro" />
+  </message>
+  <message name="sol_euroResponse">
+    <part name="parameters" element="tns:sol_euroResponse" />
+  </message>
+  <message name="dolar_sol">
+    <part name="parameters" element="tns:dolar_sol" />
+  </message>
+  <message name="dolar_solResponse">
+    <part name="parameters" element="tns:dolar_solResponse" />
+  </message>
+  <message name="sol_dolar">
+    <part name="parameters" element="tns:sol_dolar" />
+  </message>
+  <message name="sol_dolarResponse">
+    <part name="parameters" element="tns:sol_dolarResponse" />
+  </message>
+  <portType name="ConvertirWS">
+    <operation name="euro_dolar">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/euro_dolarRequest" message="tns:euro_dolar" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/euro_dolarResponse" message="tns:euro_dolarResponse" />
+    </operation>
+    <operation name="dolar_euro">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/dolar_euroRequest" message="tns:dolar_euro" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/dolar_euroResponse" message="tns:dolar_euroResponse" />
+    </operation>
+    <operation name="euro_sol">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/euro_solRequest" message="tns:euro_sol" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/euro_solResponse" message="tns:euro_solResponse" />
+    </operation>
+    <operation name="sol_euro">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/sol_euroRequest" message="tns:sol_euro" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/sol_euroResponse" message="tns:sol_euroResponse" />
+    </operation>
+    <operation name="dolar_sol">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/dolar_solRequest" message="tns:dolar_sol" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/dolar_solResponse" message="tns:dolar_solResponse" />
+    </operation>
+    <operation name="sol_dolar">
+      <input wsam:Action="http://ws.epmg.pe/ConvertirWS/sol_dolarRequest" message="tns:sol_dolar" />
+      <output wsam:Action="http://ws.epmg.pe/ConvertirWS/sol_dolarResponse" message="tns:sol_dolarResponse" />
+    </operation>
+  </portType>
+  <binding name="ConvertirWSPortBinding" type="tns:ConvertirWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="euro_dolar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="dolar_euro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="euro_sol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sol_euro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="dolar_sol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sol_dolar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ConvertirWS">
+    <port name="ConvertirWSPort" binding="tns:ConvertirWSPortBinding">
+      <soap:address location="http://localhost:8083/WSMonedas/ConvertirWS" />
+    </port>
+  </service>
+</definitions>

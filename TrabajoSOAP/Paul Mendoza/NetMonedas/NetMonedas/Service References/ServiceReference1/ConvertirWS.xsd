@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws.epmg.pe/" targetNamespace="http://ws.epmg.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="dolar_euro" type="tns:dolar_euro" />
+  <xs:element name="dolar_euroResponse" type="tns:dolar_euroResponse" />
+  <xs:element name="dolar_sol" type="tns:dolar_sol" />
+  <xs:element name="dolar_solResponse" type="tns:dolar_solResponse" />
+  <xs:element name="euro_dolar" type="tns:euro_dolar" />
+  <xs:element name="euro_dolarResponse" type="tns:euro_dolarResponse" />
+  <xs:element name="euro_sol" type="tns:euro_sol" />
+  <xs:element name="euro_solResponse" type="tns:euro_solResponse" />
+  <xs:element name="sol_dolar" type="tns:sol_dolar" />
+  <xs:element name="sol_dolarResponse" type="tns:sol_dolarResponse" />
+  <xs:element name="sol_euro" type="tns:sol_euro" />
+  <xs:element name="sol_euroResponse" type="tns:sol_euroResponse" />
+  <xs:complexType name="euro_dolar">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="euro_dolarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sol_dolar">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sol_dolarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dolar_sol">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dolar_solResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dolar_euro">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dolar_euroResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sol_euro">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sol_euroResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="euro_sol">
+    <xs:sequence>
+      <xs:element name="monto" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="euro_solResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

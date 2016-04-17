@@ -1,0 +1,9 @@
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\bin\Debug\NetMonedas.exe.config
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\bin\Debug\NetMonedas.exe
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\bin\Debug\NetMonedas.pdb
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.csprojResolveAssemblyReference.cache
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.Form1.resources
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.Properties.Resources.resources
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.csproj.GenerateResource.Cache
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.exe
+J:\Java Web Services\TareaConversionMoneda\NetMonedas\NetMonedas\obj\Debug\NetMonedas.pdb

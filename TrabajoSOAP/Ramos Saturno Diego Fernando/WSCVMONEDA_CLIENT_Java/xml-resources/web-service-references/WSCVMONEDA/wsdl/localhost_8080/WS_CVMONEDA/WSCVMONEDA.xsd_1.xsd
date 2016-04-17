@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.egcc.pe/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.egcc.pe/">
+
+<xs:element name="dollarToEuro" type="tns:dollarToEuro"/>
+
+<xs:element name="dollarToEuroResponse" type="tns:dollarToEuroResponse"/>
+
+<xs:element name="dollarToSol" type="tns:dollarToSol"/>
+
+<xs:element name="dollarToSolResponse" type="tns:dollarToSolResponse"/>
+
+<xs:element name="euroToDollar" type="tns:euroToDollar"/>
+
+<xs:element name="euroToDollarResponse" type="tns:euroToDollarResponse"/>
+
+<xs:element name="euroToSol" type="tns:euroToSol"/>
+
+<xs:element name="euroToSolResponse" type="tns:euroToSolResponse"/>
+
+<xs:element name="solToDollar" type="tns:solToDollar"/>
+
+<xs:element name="solToDollarResponse" type="tns:solToDollarResponse"/>
+
+<xs:element name="solToEuro" type="tns:solToEuro"/>
+
+<xs:element name="solToEuroResponse" type="tns:solToEuroResponse"/>
+
+<xs:complexType name="dollarToEuro">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dollarToEuroResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solToDollar">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solToDollarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroToSol">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroToSolResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dollarToSol">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dollarToSolResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroToDollar">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroToDollarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solToEuro">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="solToEuroResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

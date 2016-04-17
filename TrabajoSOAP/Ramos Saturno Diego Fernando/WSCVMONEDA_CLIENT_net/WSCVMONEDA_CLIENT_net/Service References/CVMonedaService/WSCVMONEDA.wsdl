@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.egcc.pe/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="WSCVMONEDA" targetNamespace="http://ws.egcc.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/WS_CVMONEDA/WSCVMONEDA?xsd=1" namespace="http://ws.egcc.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="dollarToSol">
+    <part name="parameters" element="tns:dollarToSol" />
+  </message>
+  <message name="dollarToSolResponse">
+    <part name="parameters" element="tns:dollarToSolResponse" />
+  </message>
+  <message name="solToDollar">
+    <part name="parameters" element="tns:solToDollar" />
+  </message>
+  <message name="solToDollarResponse">
+    <part name="parameters" element="tns:solToDollarResponse" />
+  </message>
+  <message name="euroToSol">
+    <part name="parameters" element="tns:euroToSol" />
+  </message>
+  <message name="euroToSolResponse">
+    <part name="parameters" element="tns:euroToSolResponse" />
+  </message>
+  <message name="solToEuro">
+    <part name="parameters" element="tns:solToEuro" />
+  </message>
+  <message name="solToEuroResponse">
+    <part name="parameters" element="tns:solToEuroResponse" />
+  </message>
+  <message name="euroToDollar">
+    <part name="parameters" element="tns:euroToDollar" />
+  </message>
+  <message name="euroToDollarResponse">
+    <part name="parameters" element="tns:euroToDollarResponse" />
+  </message>
+  <message name="dollarToEuro">
+    <part name="parameters" element="tns:dollarToEuro" />
+  </message>
+  <message name="dollarToEuroResponse">
+    <part name="parameters" element="tns:dollarToEuroResponse" />
+  </message>
+  <portType name="CVMonedaService">
+    <operation name="dollarToSol">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/dollarToSolRequest" message="tns:dollarToSol" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/dollarToSolResponse" message="tns:dollarToSolResponse" />
+    </operation>
+    <operation name="solToDollar">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/solToDollarRequest" message="tns:solToDollar" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/solToDollarResponse" message="tns:solToDollarResponse" />
+    </operation>
+    <operation name="euroToSol">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/euroToSolRequest" message="tns:euroToSol" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/euroToSolResponse" message="tns:euroToSolResponse" />
+    </operation>
+    <operation name="solToEuro">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/solToEuroRequest" message="tns:solToEuro" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/solToEuroResponse" message="tns:solToEuroResponse" />
+    </operation>
+    <operation name="euroToDollar">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/euroToDollarRequest" message="tns:euroToDollar" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/euroToDollarResponse" message="tns:euroToDollarResponse" />
+    </operation>
+    <operation name="dollarToEuro">
+      <input wsam:Action="http://ws.egcc.pe/CVMonedaService/dollarToEuroRequest" message="tns:dollarToEuro" />
+      <output wsam:Action="http://ws.egcc.pe/CVMonedaService/dollarToEuroResponse" message="tns:dollarToEuroResponse" />
+    </operation>
+  </portType>
+  <binding name="CVMonedaServicePortBinding" type="tns:CVMonedaService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="dollarToSol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="solToDollar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="euroToSol">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="solToEuro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="euroToDollar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="dollarToEuro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSCVMONEDA">
+    <port name="CVMonedaServicePort" binding="tns:CVMonedaServicePortBinding">
+      <soap:address location="http://localhost:8080/WS_CVMONEDA/WSCVMONEDA" />
+    </port>
+  </service>
+</definitions>
