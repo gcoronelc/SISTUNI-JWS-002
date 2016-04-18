@@ -34,6 +34,23 @@
             }
           });
   	});
+  	
+  	$("#btnConsultar2").click(function(){
+  		$.ajax({
+            url: 'http://localhost:8083/restcrud/rest/clientes', // url del recurso
+            type: "GET", // podría ser get, post, put o delete.
+            headers: {"Accept":"application/json"},
+            //contentType: "application/xml; charset=utf-8",
+            //data: {}, // datos a pasar al servidor, en caso de necesitarlo
+            //dataType: "xml",
+            success: function (lista) {
+              var html = "<p>Código: " + obj.codigo + "</p>";
+              html += "<p>Paterno: " + obj.paterno + "</p>";
+              html += "<p>Materno: " + obj.materno + "</p>";
+              $("#divDatos").html(html);
+            }
+          });
+  	});
   
   </script>
 </body>
