@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='UTF-8'>
+    <meta charset="UTF-8">
     <title></title>
   </head>
   <body>
@@ -18,7 +18,7 @@
       die('error al inicializar el objeto, url incorrecta.');
     } 
     
-    curl_setopt($ch, CURLOPT_URL, $service_url);
+    curl_setopt($curl, CURLOPT_URL, $service_url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
     echo 'EGCC 1<br/>';
